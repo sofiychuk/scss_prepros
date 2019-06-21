@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+body {
+  height: 100vh; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+
+.ot-container {
+  width: 1140px;
+  margin: 0 auto; }
+
+.ot-header {
+  text-align: center;
+  height: 260px; }
+  .ot-header__title-text {
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    color: #898f8f;
+    line-height: 1.333;
+    text-transform: uppercase;
+    padding-top: 60px;
+    font-weight: 200; }
+  .ot-header__title {
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    color: #ffcc00;
+    line-height: 1.1;
+    text-transform: uppercase; }
+  .ot-header__design {
+    width: 39.4737%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative; }
+    .ot-header__design-logo {
+      background: url("../img/bonfire.png") no-repeat center;
+      width: 6.6%;
+      height: 100px;
+      display: inline-block; }
+      .ot-header__design-logo:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -0.5px;
+        width: 46.7%;
+        border-top: 1px solid #ffcc00; }
+      .ot-header__design-logo:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -0.5px;
+        width: 46.7%;
+        border-top: 1px solid #ffcc00; }
+
+.ot-main {
+  text-align: center;
+  clear: both; }
+  .ot-main__photo-block {
+    float: left;
+    width: 50%;
+    padding: 100px 0 100px 100px;
+    border-right: 1px solid #ffcc00;
+    position: relative;
+    z-index: 8; }
+  .ot-main__frame_element {
+    border: 1px solid #ffcc00;
+    position: absolute;
+    width: 20%;
+    height: 20%; }
+    .ot-main__frame_element--top-left {
+      top: 80px;
+      left: 80px;
+      z-index: 2;
+      border-right: transparent;
+      border-bottom: transparent; }
+    .ot-main__frame_element--top-right {
+      top: 80px;
+      right: 60px;
+      border-bottom: transparent;
+      border-left: transparent; }
+    .ot-main__frame_element--bottom-left {
+      bottom: 80px;
+      left: 80px;
+      border-top: transparent;
+      border-right: transparent; }
+    .ot-main__frame_element--bottom-right {
+      bottom: 80px;
+      right: 60px;
+      border-top: transparent;
+      border-left: transparent; }
+  .ot-main__photo {
+    background: url("../img/SahariarKabir.png") no-repeat center;
+    width: 388px;
+    height: 388px;
+    border: 1px solid #ffcc00;
+    z-index: 4;
+    position: relative; }
+  .ot-main--left_switch {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -11.5px; }
+    .ot-main--left_switch:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+
+.info-block {
+  float: right;
+  width: 50%;
+  padding-top: 100px;
+  position: relative; }
+  .info-block__title {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    line-height: 0.667;
+    font-weight: 800; }
+  .info-block hr {
+    width: 100px;
+    height: 1px;
+    background-color: #ffcc00;
+    border: none;
+    margin: 25px auto; }
+  .info-block:hover hr {
+    width: 200px; }
+  .info-block__sub-title {
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #666666;
+    line-height: 1.5;
+    font-weight: 300; }
+  .info-block__logo {
+    padding: 20px 0; }
+  .info-block--social_media_item {
+    width: 25px;
+    height: 25px;
+    margin: 0 1px;
+    display: inline-block;
+    border: 1.5px solid #cdcdcd;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative; }
+    .info-block--social_media_item:hover {
+      border-color: #ffcc00; }
+  .info-block--social_media_facebook {
+    background-image: url("../img/facebook.png"); }
+  .info-block--social_media_twitter {
+    background-image: url("../img/twitter.png"); }
+  .info-block--social_media_google-plus {
+    background-image: url("../img/google_plus.png"); }
+  .info-block--social_media_linkedin {
+    background-image: url("../img/linkedin.png"); }
+  .info-block__text {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    color: #333333;
+    line-height: 1.714;
+    margin: 0 auto;
+    width: 75%; }
+  .info-block__element {
+    height: 4px;
+    background-color: #ffcc00;
+    display: inline-block; }
+    .info-block__element:nth-child(even) {
+      width: 10px;
+      margin: 30px 0; }
+    .info-block__element:nth-child(odd) {
+      width: 20px;
+      margin: 30px 6px; }
+  .info-block__btn {
+    font-family: "Open Sans", sans-serif;
+    color: #666666;
+    background: transparent;
+    border: 1px solid #ffcc00;
+    padding: 2px 10px;
+    cursor: pointer; }
+    .info-block__btn:hover {
+      color: #fff;
+      background: #ffcc00;
+      border: 1px solid #666666; }
+    .info-block__btn:active {
+      -webkit-box-shadow: inset 1px 1px 10px -1px #000;
+      box-shadow: inset 1px 1px 10px -1px #000; }
+    .info-block__btn:focus {
+      display: none; }
+  .info-block--right_switch {
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    margin-top: -11.5px; }
+    .info-block--right_switch:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+
+.clearfix {
+  clear: both; }
+
+.ot-footer {
+  height: 145px; }
+  .ot-footer__slider {
+    padding-top: 40px;
+    text-align: center; }
+    .ot-footer__slider--item {
+      display: none; }
+      .ot-footer__slider--item + label:before {
+        background-color: #ffcc00;
+        content: "";
+        border: 1px solid transparent;
+        border-radius: 50%;
+        display: inline-block;
+        height: 8px;
+        width: 8px;
+        margin: 0 3px;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        cursor: pointer; }
+      .ot-footer__slider--item:checked + label:before {
+        background-color: #fff;
+        border: 1px solid #ffcc00;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); }
